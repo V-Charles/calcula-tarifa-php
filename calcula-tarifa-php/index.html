@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 004</title>
+</head>
+<body>
+    <form action="tarifa.php" method="post">
+        <label for="tarifa">Informe o valor da tarifa: <input type="text" name="tarifa"></label><br><br>
+
+        <label for="distancia">Informe a distância: <input type="text" name="distancia"></label><br><br>
+
+        <label for="passageiro">Selecione o tipo de passageiro <select name="passageiro" id="idpassageiro">
+            <option value="">--Selecione--</option>
+            <option value="estudante">Estudante</option>
+            <option value="idoso">Idoso</option>
+            <option value="trabalhador">Trabalhador</option>
+            <option value="turista">Turista</option>
+            <option value="pessoa com deficiência">Pessoa com deficiência</option>
+         </select></label><br><br>
+
+         <input type="submit" value="Calcular tarifa">
+
+    </form>
+</body>
+</html>
